@@ -15,6 +15,7 @@
 ~~~
 
 ###Few Basic Docker Commands:
+~~~
 docker images - lists all the images
 docker ps -a (list all the containers)
 docker ps - lists all running containers
@@ -23,6 +24,7 @@ docker rm $(docker ps -a -q)  - Delete all containers
 docker rmi $(docker images -q) - Delete all images
 docker-compose build - builds the images.
 docker-compose up - Runs the container.
+~~~
 
 ###Changes Made:
 ~~~
