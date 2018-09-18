@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_main.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api-gateway/api-gateway_test.iml" group="api-gateway" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer/customer.iml" filepath="$PROJECT_DIR$/.idea/modules/customer/customer.iml" group="customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer/customer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/customer/customer_main.iml" group="customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer/customer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/customer/customer_test.iml" group="customer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/micro-services.iml" filepath="$PROJECT_DIR$/.idea/modules/micro-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/micro-services_main.iml" filepath="$PROJECT_DIR$/.idea/modules/micro-services_main.iml" group="micro-services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/micro-services_test.iml" filepath="$PROJECT_DIR$/.idea/modules/micro-services_test.iml" group="micro-services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/order.iml" filepath="$PROJECT_DIR$/.idea/modules/order/order.iml" group="order" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/order_main.iml" filepath="$PROJECT_DIR$/.idea/modules/order/order_main.iml" group="order" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/order/order_test.iml" filepath="$PROJECT_DIR$/.idea/modules/order/order_test.iml" group="order" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/product.iml" filepath="$PROJECT_DIR$/.idea/modules/product/product.iml" group="product" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/product_main.iml" filepath="$PROJECT_DIR$/.idea/modules/product/product_main.iml" group="product" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product/product_test.iml" filepath="$PROJECT_DIR$/.idea/modules/product/product_test.iml" group="product" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/registry.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/registry.iml" group="registry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/registry_main.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/registry_main.iml" group="registry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registry/registry_test.iml" filepath="$PROJECT_DIR$/.idea/modules/registry/registry_test.iml" group="registry" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard.iml" group="turbine-hystrix-dashboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard_main.iml" group="turbine-hystrix-dashboard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/turbine-hystrix-dashboard/turbine-hystrix-dashboard_test.iml" group="turbine-hystrix-dashboard" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,73 @@
+version: '3.0'
+services:
+  registry:
+    build: ./registry
+    image: service_registry
+    restart: always
+    ports:
+      - '8761:8761'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'
+  api-gateway:
+    build: ./api-gateway
+    image: api-gateway
+    restart: always
+    depends_on:
+      - registry
+    ports:
+      - '8080:8080'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'
+  customer:
+    build: ./customer
+    image: customer
+    restart: always
+    depends_on:
+      - api-gateway
+    ports:
+      - '8081:8081'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'
+  product:
+    build: ./product
+    image: product
+    restart: always
+    depends_on:
+      - api-gateway
+    ports:
+      - '8082:8082'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'
+  order:
+    build: ./order
+    image: order
+    restart: always
+    depends_on:
+      - api-gateway
+    ports:
+      - '8083:8083'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'
+  turbine-hystrix-dashboard:
+    build: ./turbine-hystrix-dashboard
+    image: turbine-hystrix-dashboard
+    restart: always
+    depends_on:
+      - registry
+      - customer
+    ports:
+      - '8084:8084'
+    logging:
+      options:
+        max-size: 10m
+        max-file: '10'

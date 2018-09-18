@@ -1,0 +1,14 @@
+server:
+  port: 8084
+spring:
+  application:
+    name:  turbine-hystrix-dashboard
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://registry:8761/eureka/
+turbine:
+  aggregator:
+    cluster-config: CUSTOMER
+  app-config: CUSTOMER

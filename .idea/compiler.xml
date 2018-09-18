@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api-gateway_main" target="1.8" />
+      <module name="api-gateway_test" target="1.8" />
+      <module name="customer_main" target="1.8" />
+      <module name="customer_test" target="1.8" />
+      <module name="micro-services_main" target="1.8" />
+      <module name="micro-services_test" target="1.8" />
+      <module name="order_main" target="1.8" />
+      <module name="order_test" target="1.8" />
+      <module name="product_main" target="1.8" />
+      <module name="product_test" target="1.8" />
+      <module name="registry_main" target="1.8" />
+      <module name="registry_test" target="1.8" />
+      <module name="turbine-hystrix-dashboard_main" target="1.8" />
+      <module name="turbine-hystrix-dashboard_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
